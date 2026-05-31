@@ -1,0 +1,33 @@
+import java.util.*
+ 
+fun solve(scanner: Scanner) {
+    var count = 0
+    var alice = 0
+    var bob = 0
+ 
+    val k = scanner.nextInt()
+ 
+    repeat(2) {
+        val x = scanner.nextInt()
+        val y = scanner.nextInt()
+ 
+        if (x > y) count++
+        alice += x
+        bob += y
+    }
+ 
+    if (count == 2 && (alice >= bob + k)) {
+        println("NO")
+    } else {
+        println("YES")
+    }
+}
+ 
+fun main() {
+    val scanner = Scanner(System.`in`)
+    val t = scanner.nextInt()
+ 
+    repeat(t) {
+        solve(scanner)
+    }
+}
