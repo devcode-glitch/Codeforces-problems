@@ -2,6 +2,8 @@
 using namespace std;
 #define fio() ios::sync_with_stdio(false);cin.tie(nullptr)
 using i64 = long long;
+#define rall(x) x.rbegin(),x.rend()
+#define all(x) x.begin(),x.end()
 #define endl "
 "
 #define yes cout<<"YES
@@ -28,16 +30,13 @@ int main(){
   cin>>t;
   while(t--){
     int n;
-    int ct = 0;
     cin>>n;
     vector<int> arr(n);
     for(int i =0;i<n;i++) cin>>arr[i];
-    sort(arr.rbegin(),arr.rend());
+    sort(rall(arr));
     bool found = true;
     for(int i = 0;i+2<n;i++){
-        i64 x = arr[i];
-        i64 y = arr[i+1];
-        if(x%y == arr[i+2]){continue;}
+        if(arr[i]%arr[i+1] == arr[i+2])continue;
         else{found = false;cout<<-1<<endl;break;}   
     }   
     if(found) cout<<arr[0]<<" "<<arr[1]<<endl;
