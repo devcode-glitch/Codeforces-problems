@@ -30,19 +30,16 @@ int main(){
     int n;
     int ct = 0;
     cin>>n;
-    vector<int> arr(n),mark(n,0);
+    vector<int> arr(n);
     for(int i =0;i<n;i++) cin>>arr[i];
     sort(arr.rbegin(),arr.rend());
-    if(n == 2){for(auto itr : arr) {cout<<itr<<" ";}cout<<endl;}
-    else{
-        bool found = true;
-        for(int i = 0;i+2<n;i++){
-            i64 x = arr[i];
-            i64 y = arr[i+1];
-            if(x%y == arr[i+2]){continue;}
-            else{found = false;cout<<-1<<endl;break;}
-        }
-        if(found) cout<<arr[0]<<" "<<arr[1]<<endl;
-    }
-    }
-  }
+    bool found = true;
+    for(int i = 0;i+2<n;i++){
+        i64 x = arr[i];
+        i64 y = arr[i+1];
+        if(x%y == arr[i+2]){continue;}
+        else{found = false;cout<<-1<<endl;break;}   
+    }   
+    if(found) cout<<arr[0]<<" "<<arr[1]<<endl;
+}
+}
