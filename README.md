@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 20 | 12 |
+| 21 | 12 |
 
 ---
 
@@ -14,13 +14,13 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (2)
-- [brute force](#brute-force) (3)
+- [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [dp](#dp) (1)
 - [greedy](#greedy) (7)
 - [implementation](#implementation) (7)
 - [interactive](#interactive) (1)
-- [math](#math) (5)
+- [math](#math) (6)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (4)
@@ -45,6 +45,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/122/A%20-%20Lucky%20Division/solution.cpp) |
+| 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
 | 1304B | [Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1304/B%20-%20Longest%20Palindrome/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 
@@ -100,6 +101,7 @@
 | 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1/A%20-%20Theatre%20Square/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/318/A%20-%20Even%20Odds/solution.cpp) |
+| 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
 | 1182A | [Filling Shapes](https://codeforces.com/contest/1182/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1182/A%20-%20Filling%20Shapes/solution.cpp) |
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.cpp) |
 
