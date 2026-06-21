@@ -8,7 +8,5 @@ int main(){
  if(flag) break;
  flag = (c == 'H' || c == 'Q' || c == '9');
  }
- flag? cout<<"YES
-" : cout<<"NO
-";
+ flag? cout<<"YES" : cout<<"NO";
 }
