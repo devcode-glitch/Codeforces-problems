@@ -6,19 +6,19 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 12 |
+| 22 | 12 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (1)
+- [*special](#special) (2)
 - [Uncategorized](#uncategorized) (2)
 - [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [dp](#dp) (1)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (7)
+- [greedy](#greedy) (8)
+- [implementation](#implementation) (8)
 - [interactive](#interactive) (1)
 - [math](#math) (6)
 - [number theory](#number-theory) (1)
@@ -31,6 +31,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
 
 ### Uncategorized
@@ -69,6 +70,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 1304B | [Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1304/B%20-%20Longest%20Palindrome/solution.cpp) |
@@ -84,6 +86,7 @@
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/96/A%20-%20Football/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/133/A%20-%20HQ9%2B/solution.cpp) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 1304B | [Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1304/B%20-%20Longest%20Palindrome/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
