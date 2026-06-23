@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 25 | 13 |
+| 26 | 13 |
 
 ---
 
@@ -14,12 +14,12 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (1)
+- [binary search](#binary-search) (2)
 - [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (4)
-- [dp](#dp) (1)
+- [dp](#dp) (2)
 - [greedy](#greedy) (10)
-- [implementation](#implementation) (9)
+- [implementation](#implementation) (10)
 - [interactive](#interactive) (1)
 - [math](#math) (7)
 - [number theory](#number-theory) (1)
@@ -47,6 +47,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 
 ### brute force
 
@@ -70,6 +71,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1182A | [Filling Shapes](https://codeforces.com/contest/1182/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1182/A%20-%20Filling%20Shapes/solution.cpp) |
 
 ### greedy
@@ -98,6 +100,7 @@
 | 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1304B | [Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1304/B%20-%20Longest%20Palindrome/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
 
