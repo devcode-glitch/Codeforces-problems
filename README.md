@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 36 | 14 |
+| 37 | 14 |
 
 ---
 
@@ -19,12 +19,12 @@
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [dp](#dp) (3)
-- [greedy](#greedy) (14)
+- [greedy](#greedy) (15)
 - [implementation](#implementation) (13)
 - [interactive](#interactive) (1)
-- [math](#math) (8)
+- [math](#math) (9)
 - [number theory](#number-theory) (1)
-- [sortings](#sortings) (6)
+- [sortings](#sortings) (7)
 - [strings](#strings) (5)
 
 ---
@@ -102,6 +102,7 @@
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
 | 2229C1 | [We Be Flipping (Easy Version)](https://codeforces.com/contest/2229/problem/C1) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2229/C1%20-%20We%20Be%20Flipping%20(Easy%20Version)/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 
 ### implementation
 
@@ -139,6 +140,7 @@
 | 1182A | [Filling Shapes](https://codeforces.com/contest/1182/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1182/A%20-%20Filling%20Shapes/solution.cpp) |
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.cpp) |
 | 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 
 ### number theory
 
@@ -156,6 +158,7 @@
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 
 ### strings
 
