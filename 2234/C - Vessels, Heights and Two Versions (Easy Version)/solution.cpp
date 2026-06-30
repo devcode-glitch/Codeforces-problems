@@ -1,52 +1,66 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
+using i64 = long long;
+using u64 = unsigned long long; //maximum limit is 2^64 - 1, positive only
+using l64 = long double;
+using i128 = __int128_t;
+using u128 = __uint128_t;
+#define decimal(x,n) fixed<<setprecision(n)<<x /* output x precision n   */
+#define nl "
+"
+#define all(x) x.begin(),x.end()
+#define rall(x) x.rbegin(),x.rend()
+#define yes cout<<"Yes
+"
+#define no cout<<"No
+"
+#define fio() ios::sync_with_stdio(false),cin.tie(nullptr)
  
-void solve() {
+#ifndef ONLINE_JUDGE
+#define debug(x) do{cerr<<#x<<" = ";_print(x);cerr<<endl;}while(0)
+#else
+#define debug(x)
+#endif
+ 
+void _print(long double x){cerr<<x;}void _print(int x){cerr<<x;} void _print(long long x){cerr<<x;} void _print(char x){cerr<<x;} void _print(const string &x){cerr<<x;} void _print(bool x){cerr<<(x? "true" : "false");} void _print(double x){cerr<<x;}
+ 
+template<class T,class V> void _print(const pair<T,V>& p); template<class T> void _print(const vector<T>& v); template<class T> void _print(const set<T>& v); template<class T> void _print(const multiset<T>& v); template<class T,class V> void _print(const map<T,V>& v);
+ 
+template<class K, class V>void _print(const multimap<K, V>& mp) {cerr << "{";bool first = true;for (const auto& p : mp) {if (!first) cerr << ", ";_print(p);first = false;}cerr << "}";}
+template<class T,class V> void _print(const pair<T,V>& p){cerr<<"{";_print(p.first);cerr<<",";_print(p.second);cerr<<"}";}
+template<class T> void _print(const vector<T>& v){cerr<<"[ ";for(const T& x:v){_print(x);cerr<<" ";}cerr<<"]";}
+template<class T> void _print(const set<T>& v){cerr<<"[ ";for(const T& x:v){_print(x);cerr<<" ";}cerr<<"]";}
+template<class T> void _print(const multiset<T>& v){cerr<<"[ ";for(const T& x:v){_print(x);cerr<<" ";}cerr<<"]";}
+template<class K,class V> void _print(const map<K,V>& v){cerr<<"[ ";for(const auto& x:v){_print(x);cerr<<" ";}cerr<<"]";}
+long long power(long long a, long long b, long long mod = 998244353) {long long res = 1;a %= mod;while (b > 0) {if (b & 1) res = res * a % mod;a = a * a % mod;b >>= 1;}return res;}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GOLDEN RULES
+SOLUTIONS ARE SIMPLE
+PROOFS ARE SIMPLE
+IMPLEMENTATION IS SIMPLE
+ 
+YOU'RE DOING A CP PROBLEM NOT A HEURISITC, A SOLUTION ALREADY EXISTS
+ 
+ALWAYS THINK IF I CAN SOLVE IT , HOW WOULD IT BE ??
+ 
+SIMPLE OBSERVATIONS
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+void solve(){
     int n;
-    cin >> n;
-    vector<long long> h(n);
-    for (int i = 0; i < n; i++) cin >> h[i];
- 
-    // build adjacency list: vessel i -- h[i] -- vessel (i+1)%n
-    vector<array<pair<int,long long>,2>> adj(n);
-    for (int i = 0; i < n; i++) {
-        int j = (i + 1) % n;
-        adj[i][0] = {j, h[i]};
-        adj[j][1] = {i, h[i]};
+    cin>>n;
+    vector<i64> h(n);
+    for(int i=0;i<n;i++) cin>>h[i];
+    for(int s=0;s<n;s++){
+        vector<i64> w1(n),w2(n),w3(n);
+        for(int i=1;i<n;i++) w1[(s+i)%n] = max(w1[(s+i - 1)%n],h[(s+i - 1)%n]);
+        for(int i=1;i<n;i++) w2[(s+n-i)%n] = max(w2[(s+n-i+1)%n],h[(s+n-i)%n]);
+        for(int i=0;i<n;i++) w3[i] = min(w2[i],w1[i]);
+        cout<<accumulate(w3.begin(),w3.end(),0ll)<<" ";
     }
- 
-    for (int l = 0; l < n; l++) {
-        // modified Dijkstra: minimize the MAX edge weight on path from l
-        vector<long long> dist(n, LLONG_MAX);
-        dist[l] = 0; // l itself stays 0 (forced empty)
-        priority_queue<pair<long long,int>, vector<pair<long long,int>>, greater<>> pq;
-        pq.push({0, l});
- 
-        while (!pq.empty()) {
-            auto [d, u] = pq.top(); pq.pop();
-            if (d > dist[u]) continue;
-            for (auto &[v, w] : adj[u]) {
-                long long nd = max(d, w); // minimax relaxation
-                if (nd < dist[v]) {
-                    dist[v] = nd;
-                    pq.push({nd, v});
-                }
-            }
-        }
- 
-        long long total = 0;
-        for (int i = 0; i < n; i++) {
-            if (i != l) total += dist[i];
-        }
-        cout << total << " ";
-    }
-    cout << "
-";
+    cout<<nl;
+    return;
 }
- 
-signed main() {
-    ios_base::sync_with_stdio(0); cin.tie(0);
-    int t;
-    cin >> t;
-    while (t--) solve();
-}
+int main(){fio();int t=1;cin>>t;
+while(t--) solve();
+return 0;}
