@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 45 | 17 |
+| 46 | 18 |
 
 ---
 
@@ -15,11 +15,12 @@
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (3)
-- [brute force](#brute-force) (10)
-- [combinatorics](#combinatorics) (2)
+- [brute force](#brute-force) (11)
+- [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (4)
+- [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (3)
+- [dp](#dp) (4)
 - [dsu](#dsu) (1)
 - [greedy](#greedy) (23)
 - [implementation](#implementation) (15)
@@ -27,7 +28,7 @@
 - [math](#math) (12)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (8)
-- [strings](#strings) (5)
+- [strings](#strings) (6)
 - [two pointers](#two-pointers) (2)
 
 ---
@@ -66,6 +67,7 @@
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 | 2211C1 | [Equal Multisets (Easy Version)](https://codeforces.com/contest/2211/problem/C1) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2211/C1%20-%20Equal%20Multisets%20(Easy%20Version)/solution.cpp) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
@@ -75,6 +77,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 
 ### constructive algorithms
@@ -85,6 +88,12 @@
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.cpp) |
 | 2229C1 | [We Be Flipping (Easy Version)](https://codeforces.com/contest/2229/problem/C1) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2229/C1%20-%20We%20Be%20Flipping%20(Easy%20Version)/solution.cpp) |
 | 2233B | [Different Distances](https://codeforces.com/contest/2233/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2233/B%20-%20Different%20Distances/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 
 ### dfs and similar
 
@@ -99,6 +108,7 @@
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1182A | [Filling Shapes](https://codeforces.com/contest/1182/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1182/A%20-%20Filling%20Shapes/solution.cpp) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 
 ### dsu
 
@@ -206,6 +216,7 @@
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/96/A%20-%20Football/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 1304B | [Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1304/B%20-%20Longest%20Palindrome/solution.cpp) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 
 ### two pointers
 
