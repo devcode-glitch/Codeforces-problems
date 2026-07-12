@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 3 | 6 |
+| 4 | 8 |
 
 ---
 
@@ -14,8 +14,10 @@
 
 - [brute force](#brute-force) (2)
 - [data structures](#data-structures) (1)
+- [games](#games) (1)
 - [greedy](#greedy) (2)
-- [math](#math) (1)
+- [math](#math) (2)
+- [number theory](#number-theory) (1)
 - [sortings](#sortings) (1)
 - [strings](#strings) (1)
 
@@ -34,6 +36,12 @@
 |---|---------|------------|----------|
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
 
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -46,6 +54,13 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 
 ### sortings
 
