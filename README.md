@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 2 | 5 |
 
 ---
 
@@ -14,6 +14,9 @@
 
 - [brute force](#brute-force) (1)
 - [data structures](#data-structures) (1)
+- [greedy](#greedy) (1)
+- [math](#math) (1)
+- [sortings](#sortings) (1)
 
 ---
 
@@ -28,6 +31,24 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
 
 ---
 
