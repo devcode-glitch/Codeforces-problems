@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 9 |
+| 7 | 10 |
 
 ---
 
@@ -16,7 +16,8 @@
 - [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (2)
+- [greedy](#greedy) (3)
+- [implementation](#implementation) (1)
 - [math](#math) (2)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (1)
@@ -54,8 +55,15 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1150B | [Tiling Challenge](https://codeforces.com/contest/1150/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1150/B%20-%20Tiling%20Challenge/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1150B | [Tiling Challenge](https://codeforces.com/contest/1150/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1150/B%20-%20Tiling%20Challenge/solution.cpp) |
 
 ### math
 
