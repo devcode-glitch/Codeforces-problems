@@ -1,0 +1,42 @@
+<h2><a href="https://codeforces.com/contest/1150/problem/B" target="_blank" rel="noopener noreferrer">1150B — Tiling Challenge</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1150B](https://codeforces.com/contest/1150/problem/B) |
+
+## Topics
+`greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Tiling Challenge</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>One day Alice was cleaning up her basement when she noticed something very curious: an <span class="tex-font-style-bf">infinite</span> set of wooden pieces! Each piece was made of five square tiles, with four tiles adjacent to the fifth center tile: </p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/3e3d2680d0e95711cea2f81701133940b158001f.png" style="max-width: 100.0%;max-height: 100.0%;"> </center> By the pieces lay a large square wooden board. The board is divided into <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-msubsup" id="MJXp-Span-2"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-3" style="margin-right: 0.05em;">n</span><span class="MJXp-mn MJXp-script" id="MJXp-Span-4" style="vertical-align: 0.5em;">2</span></span></span></span>$n^2$ cells arranged into <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-5"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-6">n</span></span></span>$n$ rows and <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-7"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-8">n</span></span></span>$n$ columns. Some of the cells are already occupied by single tiles stuck to it. The remaining cells are free.<p>Alice started wondering whether she could fill the board completely using the pieces she had found. Of course, each piece has to cover exactly five distinct cells of the board, no two pieces can overlap and every piece should fit in the board entirely, without some parts laying outside the board borders. The board however was too large for Alice to do the tiling by hand. Can you help determine if it's possible to fully tile the board?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains a single integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-9"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-10">n</span></span></span>$n$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-11"><span class="MJXp-mn" id="MJXp-Span-12">3</span><span class="MJXp-mo" id="MJXp-Span-13" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-14">n</span><span class="MJXp-mo" id="MJXp-Span-15" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-16">50</span></span></span>$3 \leq n \leq 50$) — the size of the board.</p><p>The following <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-17"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-18">n</span></span></span>$n$ lines describe the board. The <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-19"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-20">i</span></span></span>$i$-th line (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-21"><span class="MJXp-mn" id="MJXp-Span-22">1</span><span class="MJXp-mo" id="MJXp-Span-23" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-24">i</span><span class="MJXp-mo" id="MJXp-Span-25" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-26">n</span></span></span>$1 \leq i \leq n$) contains a single string of length <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-27"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-28">n</span></span></span>$n$. Its <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-29"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-30">j</span></span></span>$j$-th character (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-31"><span class="MJXp-mn" id="MJXp-Span-32">1</span><span class="MJXp-mo" id="MJXp-Span-33" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-34">j</span><span class="MJXp-mo" id="MJXp-Span-35" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-36">n</span></span></span>$1 \leq j \leq n$) is equal to "<span class="tex-font-style-tt">.</span>" if the cell in the <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-37"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-38">i</span></span></span>$i$-th row and the <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-39"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-40">j</span></span></span>$j$-th column is free; it is equal to "<span class="tex-font-style-tt">#</span>" if it's occupied.</p><p>You can assume that the board contains at least one free cell.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output <span class="tex-font-style-tt">YES</span> if the board can be tiled by Alice's pieces, or <span class="tex-font-style-tt">NO</span> otherwise. You can print each letter in any case (upper or lower).</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0010462754977413902" id="id001018725071097899" class="input-output-copier">Copy</div></div><pre id="id0010462754977413902">3
+#.#
+...
+#.#
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0049609482139689565" id="id008739412840520169" class="input-output-copier">Copy</div></div><pre id="id0049609482139689565">YES
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0039223634174403565" id="id0035545502365550397" class="input-output-copier">Copy</div></div><pre id="id0039223634174403565">4
+##.#
+#...
+####
+##.#
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007989690570788378" id="id002053384818473616" class="input-output-copier">Copy</div></div><pre id="id007989690570788378">NO
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007253097277391467" id="id004835120653589243" class="input-output-copier">Copy</div></div><pre id="id007253097277391467">5
+#.###
+....#
+#....
+###.#
+#####
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007365099838242559" id="id005580569380455793" class="input-output-copier">Copy</div></div><pre id="id007365099838242559">YES
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0028099372295134883" id="id005793107089457117" class="input-output-copier">Copy</div></div><pre id="id0028099372295134883">5
+#.###
+....#
+#....
+....#
+#..##
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0035444746379540604" id="id00045027829940628594" class="input-output-copier">Copy</div></div><pre id="id0035444746379540604">NO
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>The following sketches show the example boards and their tilings if such tilings exist: </p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/9a08c214c68f15f6d7a4c3d5365b54fdf8fedfb6.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div>
