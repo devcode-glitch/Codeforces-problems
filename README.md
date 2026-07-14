@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 10 | 12 |
+| 11 | 13 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (3)
@@ -26,6 +27,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
 
 ### binary search
 
