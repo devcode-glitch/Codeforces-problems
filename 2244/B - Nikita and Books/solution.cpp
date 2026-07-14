@@ -49,7 +49,7 @@ void solve(){
         pref[i] = pref[i-1] + a[i];
     }
     dbg(pref);
-    int start = 0;
+    i64 start = 0;
     for(int i=1;i<=n;++i){
         start+=i;
         if(pref[i - 1] >= start) continue;
