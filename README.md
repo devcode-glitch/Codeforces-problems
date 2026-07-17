@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 59 | 18 |
+| 60 | 18 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (7)
 - [dsu](#dsu) (1)
-- [greedy](#greedy) (29)
+- [greedy](#greedy) (30)
 - [implementation](#implementation) (17)
 - [interactive](#interactive) (1)
 - [math](#math) (18)
@@ -160,6 +160,7 @@
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
+| 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
 
 ### implementation
 
