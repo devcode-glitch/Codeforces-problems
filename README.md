@@ -6,137 +6,28 @@
 
 | Total Problems | Topics |
 |---|---|
-| 18 | 14 |
+| 1 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (1)
-- [brute force](#brute-force) (3)
-- [constructive algorithms](#constructive-algorithms) (6)
-- [data structures](#data-structures) (1)
-- [dp](#dp) (1)
-- [games](#games) (1)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (2)
-- [math](#math) (6)
-- [number theory](#number-theory) (5)
-- [sortings](#sortings) (2)
+- [implementation](#implementation) (1)
 - [strings](#strings) (1)
-- [two pointers](#two-pointers) (1)
 
 ---
-
-### Uncategorized
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
-| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
-
-### binary search
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
-
-### brute force
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
-| 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
-| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
-
-### constructive algorithms
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
-| 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
-| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
-| 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.cpp) |
-
-### data structures
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
-
-### dp
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
-
-### games
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
-
-### greedy
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1150B | [Tiling Challenge](https://codeforces.com/contest/1150/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1150/B%20-%20Tiling%20Challenge/solution.cpp) |
-| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
-| 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
-| 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
-| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
-| 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 1150B | [Tiling Challenge](https://codeforces.com/contest/1150/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1150/B%20-%20Tiling%20Challenge/solution.cpp) |
-| 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
-
-### math
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
-| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
-| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
-| 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
-| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-
-### number theory
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
-| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
-| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
-
-### sortings
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
-
-### two pointers
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 
 ---
 
