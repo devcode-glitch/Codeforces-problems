@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 6 |
+| 5 | 7 |
 
 ---
 
@@ -16,6 +16,7 @@
 - [brute force](#brute-force) (1)
 - [greedy](#greedy) (1)
 - [implementation](#implementation) (1)
+- [math](#math) (1)
 - [sortings](#sortings) (1)
 - [strings](#strings) (2)
 
@@ -44,6 +45,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 
 ### sortings
 
