@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 9 |
+| 5 | 10 |
 
 ---
 
@@ -14,10 +14,11 @@
 
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (1)
+- [constructive algorithms](#constructive-algorithms) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (1)
+- [greedy](#greedy) (2)
 - [math](#math) (2)
 - [sortings](#sortings) (1)
 - [strings](#strings) (1)
@@ -35,6 +36,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2091C | [Combination Lock](https://codeforces.com/contest/2091/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2091/C%20-%20Combination%20Lock/solution.cpp) |
 
 ### dfs and similar
 
@@ -58,6 +65,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2091C | [Combination Lock](https://codeforces.com/contest/2091/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2091/C%20-%20Combination%20Lock/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
 
 ### math
