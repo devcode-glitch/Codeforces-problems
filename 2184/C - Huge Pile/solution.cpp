@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define imx INT_MAX
+#define imn INT_MIN
+#define llmx LLONG_MAX
+#define llmn LLONG_MIN
 typedef long long ll;
 using u64 = unsigned long long; //maximum limit is 2^64 - 1, positive only
 using l64 = long double;
@@ -8,17 +12,14 @@ using u128 = __uint128_t;
 #define decimal(x,n) fixed<<setprecision(n)<<x /* output x precision n   */
 #define nl "
 "
-#define imx INT_MAX
-#define imn INT_MIN
-#define llmx LLONG_MAX
-#define llmn LLONG_MIN
 #define all(x) x.begin(),x.end()
 #define rall(x) x.rbegin(),x.rend()
-#define yes cout<<"YES
+#define yes cout<<"Yes
 "
-#define no cout<<"NO
+#define no cout<<"No
 "
 #define fio ios::sync_with_stdio(false),cin.tie(nullptr)
+ 
 #ifdef LOCAL
 #include "debug.h"
 #else
@@ -28,39 +29,30 @@ long long pMOD(long long a, long long b, long long mod = 998244353) {long long r
 long long power(long long a, long long b) {long long res = 1;while (b > 0) {if (b & 1)res = res * a;a = a * a;b >>= 1;}return res;}
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  GOLDEN RULES
- 
 SOLUTIONS ARE SIMPLE
- 
 PROOFS ARE SIMPLE
- 
 IMPLEMENTATION IS SIMPLE
  
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// C. Huge Pile
-// https://codeforces.com/problemset/problem/2184/C
+YOU'RE DOING A CP PROBLEM NOT A HEURISITC, A SOLUTION ALREADY EXISTS
  
+ALWAYS THINK IF I CAN SOLVE IT , HOW WOULD IT BE ??
  
-             #PROOF OR IDEA GOES HERE !!
+SIMPLE OBSERVATIONS
  
-*/ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 void solve(){
-    ll n,k;
+    int n,k;
     cin>>n>>k;
-    for(ll moves = 0,l = n, r = n; r>= k ;++moves,l/=2,r = (r+2-1)/2){
-        if(l <= k && k<=r){
+    for(int moves = 0,l=n,r=n;r >= k;++moves,l/=2,r = (r+2-1)/2){
+        if(l <= k && k <= r){
             cout<<moves<<nl;
             return;
         }
     }
     cout<<-1<<nl;
+    return;
 }
-int main(){
-#ifdef LOCAL
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    freopen("error.txt","w",stderr);
-#endif
-    fio;int t=1;cin>>t;
-    int tests = 0;
-while(t--) {dbg(++tests);solve();}
+int main(){fio;int t=1;cin>>t;
+while(t--) {
+solve();}
 return 0;}
