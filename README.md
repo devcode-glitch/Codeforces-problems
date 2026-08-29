@@ -6,21 +6,22 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 10 |
+| 7 | 11 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (1)
-- [brute force](#brute-force) (1)
+- [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (1)
+- [dp](#dp) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
+- [implementation](#implementation) (1)
 - [math](#math) (2)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (2)
 - [strings](#strings) (2)
 
 ---
@@ -35,6 +36,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### constructive algorithms
@@ -53,6 +55,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### graphs
@@ -66,8 +69,15 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
+| 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2091C | [Combination Lock](https://codeforces.com/contest/2091/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2091/C%20-%20Combination%20Lock/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 
 ### math
 
@@ -80,6 +90,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/devcode-glitch/Codeforces-problems/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
 
 ### strings
