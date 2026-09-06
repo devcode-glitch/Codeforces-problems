@@ -67,6 +67,11 @@ void solve(){
     for(int i=0;i<n;++i) if(a[i] == 1) ones.insert(i);
     reverse(all(idxs));
     vector<int> x(all(idxs));
+    if(left == n){
+        for(auto itr : a) cout<<itr<<" ";
+        cout<<nl;
+        return;
+    }
     a[left] = a[left] == -1? 1 : a[left];
     if(a[left] == 1) ones.insert(left);
     for(int i = left;i<n;++i){
