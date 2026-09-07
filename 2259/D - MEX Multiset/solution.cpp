@@ -57,15 +57,15 @@ void solve(){
         if(a[i] == 0){
             if(zx == 0) {
                 ++zx;
-                ans += "a";
+                ans += "c";
             }
             else if(zx == 1){
                 ++zx;
                 ans += "b";
             }
-            else ans += "a";
+            else ans += "c";
         }
-        else ans += "C";
+        else ans += "A";
     }
     cout<<ans<<nl;
     //dbg("X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X_X");
